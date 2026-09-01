@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/tjms-mcp",
+  "title": "Jurisprudência TJMS",
+  "description": "Brazilian case law search for AI agents from the Mato Grosso do Sul state court (TJMS), plus 16 othe",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/tjms-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_tjms"
+    }
+  ]
+}
